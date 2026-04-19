@@ -66,4 +66,26 @@
 #         print("Found")
 #         break;
 # else : 
-#     print("Not found")        
+#     print("Not found")   
+# 
+# ##################################################
+# 
+# 
+#Range
+
+#1. Print numbers from 1 to 100
+
+# for i in range(1,101):
+#     print(i)
+
+#2. Print numbers from 100 to 1
+
+# for num in range(100,0,-1):
+#     print(num)
+
+#3. Print multiplication table of number n
+
+# num = int(input("Enter a number :: "))
+
+# for i in range(1,11):
+#     print(num,"*",i,"= ",num*i)
