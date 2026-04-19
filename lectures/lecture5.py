@@ -89,3 +89,25 @@
 
 # for i in range(1,11):
 #     print(num,"*",i,"= ",num*i)
+
+######################################################
+
+#1. WAP to find the sum of first n numbers using while.
+
+# n = int(input("Enter a limit : "))
+# i=0
+# temp=0
+# while i<=n :
+#     temp=i+temp
+#     i+=1
+
+# print (temp)
+
+#2. WAP to find the factorial of first n numbers
+
+n= int(input("Enter a factorial limit :: "))
+temp = 1
+for fact in range(1,n):
+    temp = temp*fact
+print(temp)
+
