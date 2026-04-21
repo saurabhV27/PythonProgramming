@@ -15,4 +15,22 @@
 # s1 = Student("Karan",93,74,63)
 # s1.calc_Avg()
 
+#Alternate Solution
+
+# class Student :
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def calc_Avg(self):
+#         sum=0
+#         for el in self.marks:
+#             sum=sum+el
+#         print("Average is ::",sum/3)
+
+# List = (91,92,95)
+# s1 = Student("Asta",List)
+# s1.calc_Avg()
+        
+
 
