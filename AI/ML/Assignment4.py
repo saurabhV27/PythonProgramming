@@ -191,13 +191,13 @@
 #10. Ask the user to enter a string and print all unique character
 #  and count of all unique characters
 
-userInput = input("Enter a string. :: ").lower()
-unique = set()
+# userInput = input("Enter a string. :: ").lower()
+# unique = set()
 
-for ch in userInput:
-    unique.add(ch)
-print(unique)
-print(unique.__len__())
+# for ch in userInput:
+#     unique.add(ch)
+# print(unique)
+# print(unique.__len__())
 
     
         
