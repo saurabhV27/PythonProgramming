@@ -370,6 +370,101 @@
 # b1.animal()
 # b1.bear_type()
 
+#10. Lets create a chat room system using OOP concepts. 
+# We have to create classes :
+# User
+# Message
+# ChatRoom
+# And we have to implement functions 
+# sending message
+# viewing chat history
+# user joining and leaving the chat room
+
+# class User:
+#     def __init__(self,user_name):
+#         self.user_name=user_name
+#         self.chatroom=None
+    
+#     def join_chatroom(self,chatroom):
+#         if self.chatroom:
+#             print(f"{self.user_name} is already in the chatroom")
+#         else:
+#             chatroom.add_user(self)
+#             self.chatroom=chatroom
+#             print(f"{self.user_name} joined {chatroom.name}")
+        
+#     def leave_chatroom(self):
+#         if not self.chatroom:
+#             print(f"{self.user_name} is not in the chatroom")
+#         else:
+#             self.chatroom.remove_user(self)
+#             print(f"{self.user_name} left {self.chatroom.name}")
+#             self.chatroom=None
+
+#     def send_message(self, content):
+#         if not self.chatroom:
+#             print(f"{self.user_name} cannot send a message (not in a chatroom).")
+#         else:
+#             self.chatroom.broadcast(self, content)
+
+
+# class Message:
+#     message_counter=1
+
+#     def __init__(self,sender,content):
+#         self.sender=sender
+#         self.content = content
+#         self.id=Message.message_counter
+#         Message.message_counter+=1
+
+#     def __str__(self):
+#         return f"({self.id}) {self.sender.user_name}: {self.content}"
+
+
+    
+# class Chatroom:
+
+#     def __init__(self,name):
+#         self.name=name
+#         self.messages=[]
+#         self.users=[]
+
+#     def add_user(self,user):
+#         self.users.append(user)
+
+#     def remove_user(self,user):
+#         self.users.remove(user)
+    
+#     def broadcast(self,sender,content):
+#         message = Message(sender,content)
+#         self.messages.append(message)
+#         print(message)
+    
+#     def chat_history(self):
+#         print(f"Chat history of {self.name}: ")
+#         for msg in self.messages:
+#             print(msg)
+#         print()
+
+# if __name__ == "__main__":
+#     room = Chatroom("Python Lounge")
+
+# u1 = User("Alice")
+# u2 = User("Bob")
+# u3 = User("Charlie")
+# u1.join_chatroom(room)
+# u2.join_chatroom(room)
+# u1.send_message("Hello everyone!")
+# u2.send_message("Hi Alice!")
+# u3.join_chatroom(room)
+# u3.send_message("Hey guys, what's up?")
+# room.chat_history()
+# u1.leave_chatroom()
+# u2.leave_chatroom()
+# u3.leave_chatroom()
+
+
+
 
 
 
