@@ -24,7 +24,7 @@
 # for 1 subject . how many classroom are required by all the students
 
 # subjects = {"python","java","c++","python","javascript","java","python","java","c++","c"}
-
+# print(type(subjects))
 # numberOfClassrooms = len(subjects)
 # print(numberOfClassrooms)
 
