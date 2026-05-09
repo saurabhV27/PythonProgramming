@@ -8,6 +8,13 @@
 # firstDict.update(cat="a small animal")
 # print(firstDict)
 
+# #Alternate
+
+# firstDict["table"]="a piece of furniture list of facts and figures"
+# firstDict["cat"] = "a small animal"
+
+# print(firstDict)
+
 #Correct sol : dict = {
 #  "cat" : "a small animal",
 #  "table" : ["a piece of furniture","list of facts and figures"],
@@ -39,5 +46,5 @@
 # print(store)
 
 #Solution 2
-store = {("float",9.0),("int",9)}
-print(store)
+# store = {("float",9.0),("int",9)}
+# print(store)
