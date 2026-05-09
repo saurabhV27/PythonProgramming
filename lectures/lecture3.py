@@ -7,6 +7,14 @@
 # print(movies)
 # print(type(movies))
 
+#Alternate
+# movies=[]
+# for val in range(3):
+#     movie = input("Enter the name of the Movie :: ")
+#     movies.append(movie)
+
+# print(movies)
+
 #correct way is to use the append method to add elements to the list and not insert
 
 
