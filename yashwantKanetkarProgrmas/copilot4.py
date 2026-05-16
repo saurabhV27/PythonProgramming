@@ -98,12 +98,42 @@
 #         longest.append(word)
         
 # print(longest)
+
+# #8. Convert string to title case
+# user_input = input("Enter a String :: ")
+# input = user_input.title()
+# print(input)
+
+#9 Replace vowels with *
+# user_input = input("Enter a String :: ").lower()
+# result =""
+# for ch in user_input:
+#     if ch in "aeiou":
+#         result+="*"
+#     else:
+#         result+=ch
+
+# print(result)
+
+######################## Print Index ####################
+# user_input = input("Enter a String :: ").lower()
+# result =""
+# for idx,ch in enumerate(user_input,start=1):
+#     if ch in "aeiou":
+#         result+=str(idx)
+#     else:
+#         result+=ch
+# print(result)
+
+#10. Check if string is a panagram
+
+# str_input = "The quick brown fox jumps over the lazy dog"
+# str_input=str_input.replace(" ","").lower()
+# revised = set(str_input)
+# print(len(revised))
+# if(len(revised)==26):
+#     print("String is a panagram")
+# else:
+#     print("String is not a Panagram")
     
 
-
-
-
-
-
- 
- 
