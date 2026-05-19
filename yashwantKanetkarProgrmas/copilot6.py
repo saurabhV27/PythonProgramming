@@ -76,7 +76,115 @@
 # sub = dict(zip(list1,list2))
 # print (sub)
 
+# #4.Find the key with max value
+# student={
+#     "name" : "Saurabh",
+#     "subject" : {
+#         "chem" : 98,
+#         "phy" : 56,
+#         "math" : 100
 
+#     }
+# }
+# mark=0
+# subject =""
+# for sub,marks in student["subject"].items():
+#     if(marks>mark):
+#         mark = marks
+#         subject=sub
+# print(subject ,":", mark)
+
+# #5.Merge 2 dictionary
+
+# student ={
+#     "name" : "Saurabh",
+#     "subject" : {
+#         "chem" : 98,
+#         "phy" : 56,
+#         "math" : 100
+
+#     }
+
+# }
+
+# student2 ={
+#     "name2" : "Priya",
+#     "subject2" : {
+#         "chem2" : 96,
+#         "phy2" : 97,
+#         "math2" : 65
+
+#     }
+
+# }
+# student.update(student2)
+# print(student)
+
+# #6. Delete a key from dictionay
+
+# student ={
+#     "name" : "Saurabh",
+#     "subject" : {
+#         "chem" : 98,
+#         "phy" : 56,
+#         "math" : 100
+
+#     }
+
+# }
+
+# del student["name"]
+# print(student)
+
+
+#7. Sort the dictionay by values
+
+# student = {
+#     "name":"Saurabh",
+#     "name2": "priya",
+#     "subject" : {
+
+#         "chem" : 98,
+#         "phy" : 56,
+#         "math" : 100
+
+#     }
+
+# }
+# sorting = dict(sorted(student["subject"].items(),key=lambda x: x[1]))
+# print(sorting)
+
+#8 Invert a dictionary
+
+# student ={
+#     "name":"Saurabh",
+#     "name2": "priya",
+#     "subject" : {
+
+#         "chem" : 98,
+#         "phy" : 56,
+#         "math" : 100
+# }
+# }
+
+# inverted = {value:key for key,value in student["subject"].items()}
+    
+    
+# print(inverted)
+
+# #9. Check if key exists
+# student ={
+#     "name":"Saurabh",
+#     "name2": "priya",
+#     "subject" : {
+
+#         "chem" : 98,
+#         "phy" : 56,
+#         "math" : 100
+# }
+# }
+# if "Saurabh" in student.values():
+#     print("Saurabh exists in students")
 
 
 
