@@ -37,7 +37,7 @@
 
 #3. Copy contents from one file to another
 
-src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample.txt"
+#src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample.txt"
 # des = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample2.txt"
 
 # with open(src,"r") as f_src :
@@ -71,7 +71,77 @@ src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas
 # if not found:
 #     print("Not Found!!")
 
+#6. Remove blank lines from the files
 
+# src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample.txt"
+
+# with open(src,"r") as f:
+#     lines = f.readlines()
+
+# with open(src,"w") as f2:
+#     for line in lines:
+#         if line.strip():
+#             f2.write(line)
+
+#7.Find the longest line in the file
+# src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample.txt"
+# with open(src,"r") as f:
+#     longest = max(f,key=len)
+#     print(longest.strip())
+
+#8. Replace a word in the file
+# src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample.txt"
+
+# oldword = "testing"
+# newword = 'test'
+# with open(src,"r") as f:
+#     data = f.read()
+
+#     updated = data.replace(oldword,newword)
+
+# with open(src,"w") as f1:
+#     f1.write(updated)
+
+#9.Compare two files line by line
+#file1 = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample.txt"
+# file2 = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample2.txt"
+
+# list_common= []
+# list_diff = [] 
+
+# with open(file1,"r") as file1, open(file2,"r")as file2:
+#     data1 = file1.readlines()
+#     data2 = file2.readlines()
+
+#     for i in range(min(len(data1),len(data2))):
+#         if data1[i]==data2[i]:
+#             list_common.append(data1[i].strip())
+#         else:
+#             list_diff.append((i+1,data1[i].strip(),data2[i].strip()))
+
+# print(list_common)
+# print(list_diff)
+
+#10.Store list of numbers into file and read back
+# src = "/Users/saurabhvalunjkar/Python/PythonProgramming/yashwantKanetkarProgrmas/sample2.txt"
+
+# list1 = [1,2,4,5,6,7,8]
+
+# with open(src,"w") as f:
+#     for val in list1:
+#         f.write(str(val)+'\n')
+
+# with open(src,"r") as f:
+#     data = f.readlines()
+    
+# numbers = [int(line.strip()) for line in data]
+# print(numbers)
+    
+
+
+
+        
+    
  
 
 
